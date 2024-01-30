@@ -1,5 +1,4 @@
 
-
 #include <iostream>
 
 #include "multiplyEstrategy.h"
@@ -7,7 +6,7 @@
 
 #pragma once
 
-class ColumnsAlgorithm : public MatrixMultiplyEstrategy {
+class RowsAlgorithm : public MatrixMultiplyEstrategy {
  public:
   Matrix multiply(Matrix &a, Matrix &b);
 };
